@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Dylans single page layout</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css">
+    <meta
+      name="description"
+      content="A development web page to help me learn"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- nav>div>(div>button>span*3)+(div>ul>li*5>a) -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="single-page-nav sticky-wrapper" id="tmNavbar">
+          <ul class="nav navbar-nav">
+            <li><a href="#section1">Homepage</a></li>
+            <li><a href="#section2">About Us</a></li>
+            <li><a href="#section3">Services</a></li>
+            <li><a href="#section4">Contact</a></li>
+            <li><a href="#">External</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <div id="section1">
+      <header id="header-area" class="intro-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 text-center">
+              <div class="header-content">
+                <h1>COOL WEBSITE</h1>
+                <h4>A Bootstrap template</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+    </div>
+
+    <script
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/main.js" async defer></script>
+  </body>
+</html>
